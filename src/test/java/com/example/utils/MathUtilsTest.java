@@ -43,7 +43,7 @@ public class MathUtilsTest {
 
     @Test
     void testSubtractNegativeResult() {
-        assertEquals(-4, mathUtils.subtract(2, -6));
+        assertEquals(-4, mathUtils.subtract(2, 6));
     }
 
     // ---------- MULTIPLY TESTS ----------
