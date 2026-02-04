@@ -1,9 +1,5 @@
 name: My First GitHub Action
 
-schedule:
-  - cron: "0 12 * * *"
-  
-
 on:
   push:
   pull_request:
